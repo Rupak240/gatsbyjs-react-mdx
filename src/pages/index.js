@@ -3,16 +3,16 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Head from "../components/head"
+import indexStyles from './index.module.scss'
 
 const IndexPage = () => {
   return (
     <Layout>
       <Head title="home" />
-      {/* <h1>Hello</h1>
-      <h2>I'm Rupak, an Engineer, living in India</h2>
-      <p>
-        Need a Developer? <Link to="/contact">Contact Me</Link>
-      </p> */}
+      <div className={indexStyles.index}>
+        <h1>HI, I'M RUPAK DEY...</h1>
+        <h2>a immature web developer😉</h2>
+      </div>
     </Layout>
   )
 }

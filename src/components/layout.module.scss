@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap');
+
 .container {
     margin: 0 auto;
     max-width: 100vw;
     // padding: 1rem;
 
     display: flex;
+    justify-content: center;
     flex-direction: column;
     min-height: 100vh;
     position: relative;
@@ -15,5 +18,12 @@
 .content {
     flex-grow: 1;
     min-height: 100vh;
-    // margin: 0 -1rem;
+    background-image: linear-gradient(
+          to left up,
+          #893385,
+          #558868
+        );
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        // margin: 0 -1rem;
 }

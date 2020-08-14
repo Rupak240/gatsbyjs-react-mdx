@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap');
+
 .footer {
-    margin-top: 3rem;
+    position: absolute;
+    width: 95vw;
+    // display: flex;
+    // align-items: center;
+    // justify-content: right;
+    // // align-self: center;
+    // // margin-top: 3rem;
+    top: 38rem;
+    right: 1.5rem;
+    margin-top: .1rem;
+    // margin: 0 20rem;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    color: #222;
+    z-index: 100;
+
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
 }
